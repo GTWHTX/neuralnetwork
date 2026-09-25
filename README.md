@@ -1,6 +1,6 @@
 # hiragana net, in plain C
 
-**This README.md was written by an AI agent because I was too lazy to describe what this thing does. Why not to leave it without README.md? Dunno, repo seems more complete with it.**
+**This README.md was written by an AI agent because I was too lazy to describe what this thing does. Why not to leave it without README.md? Dunno, repo seems more complete with it. Don't pay attention to history of 2-3 commits, I had wrote this thing like months ago and just didn't push this to github somewhy.**
 
 I wanted to see if I could write a neural net without PyTorch doing the thinking for me. This is the result: a small network that looks at a 128x128 grayscale image and tells you which of the 46 hiragana it is.
 
