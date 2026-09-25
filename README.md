@@ -1,5 +1,7 @@
 # hiragana net, in plain C
 
+**This README.md was written by an AI agent because I was too lazy to describe what this thing does. Why not to leave it without README.md? Dunno, repo seems more complete with it.**
+
 I wanted to see if I could write a neural net without PyTorch doing the thinking for me. This is the result: a small network that looks at a 128x128 grayscale image and tells you which of the 46 hiragana it is.
 
 Matrix math goes through Apple's Accelerate, so it only builds on a Mac. Python is only there to turn images into bytes. All the training happens in `matrixes.c`.
